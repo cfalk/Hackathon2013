@@ -1,0 +1,102 @@
+@font-face {
+ font-family: "raleway";
+ src: url(raleway_thin.ttf) format("truetype");
+}
+
+@font-face {
+ font-family: "ubuntu";
+ src: url(ubuntu_reg.ttf) format("truetype");
+}
+
+body {
+ font-family: ubuntu;
+ text-align:center;
+ padding:0px;
+ margin:0px;
+}
+
+p {
+ text-align:left;
+}
+
+a {
+ font-weight:bold;
+ color: black;
+ text-decoration: none;
+ opacity:0.8;
+}
+
+a:hover {
+ opacity: 1;
+}
+
+/* # # # # # # # GLOBAL CONTAINER # # # # # # # # # */
+#mainContainer {
+ width:100%;
+ min-width:410px;
+ margin:0 auto;
+ padding:0px;
+ position: relative;
+
+}
+
+/* # # # # # # # LOGO CONTAINER # # # # # # # # # */
+#logoContainer {
+ height:190px;
+ width:100%;
+ position:relative;
+ 
+ background-color:#C93A36;
+ color:white;
+}
+
+#logo {
+ font-size: 36px;
+ padding-top: 50px;
+}
+
+.logoHighlight {
+ color: maroon;
+ display:inline-block;
+}
+
+#sublogo {
+ font-size:14px;
+ word-spacing:20px;
+}
+
+/* # # # # # # # COPYRIGHT CONTAINER # # # # # # # # # */
+#copyrightContainer {
+ font-family:raleway;
+ font-size:20px;
+ margin:20px;
+} 
+
+/* # # # # # # # MENU CONTAINER # # # # # # # # # */
+#menuContainer {
+ border-bottom: 1px solid maroon;
+}
+
+.menuLink {
+ display:inline-block;
+ margin:10px;
+ padding: 10px;
+}
+
+.menuLink:hover {
+ background-color:#eeeeee;
+ border-radius: 15px;
+}
+
+/* # # # # # # # CONTENT CONTAINER # # # # # # # # # */
+#contentContainer {
+ width: 80%;
+ font-size: 16px;
+ margin:0 auto;
+ margin-top:20px;
+}
+
+#contentContainer a {
+ color:maroon;
+}
+
