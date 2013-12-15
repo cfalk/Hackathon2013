@@ -15,7 +15,7 @@ body {
  margin:0px;
 }
 
-p {
+p, ul {
  text-align:left;
 }
 
@@ -72,6 +72,44 @@ a:hover {
  margin:20px;
 } 
 
+/* # # # # # # # ORGANIZER CONTAINER # # # # # # # # # */
+.organizerGroup {
+ position:relative;
+ display:inline-block;
+ 
+ padding: 10px;
+ border-radius:10px;
+ text-align:center;
+}
+
+.organizerGroupHeading {
+ height: 50px;
+ font-size:20px;
+}
+
+.organizer {
+ display:inline-block;
+ position:relative;
+ height:150px;
+ width:175px;
+ margin-bottom:10px;
+ font-family:raleway;
+}
+
+.organizer a {
+ font-weight: normal;
+ opacity: 1;
+}
+
+.organizer img {
+ position: relative;
+ margin-bottom:2px;
+ height:80%;
+ width: auto;
+ border-radius: 10px;
+}
+
+
 /* # # # # # # # MENU CONTAINER # # # # # # # # # */
 #menuContainer {
  border-bottom: 1px solid maroon;
@@ -96,7 +134,7 @@ a:hover {
  margin-top:20px;
 }
 
-#contentContainer a {
+#signupLink {
  color:maroon;
 }
 
