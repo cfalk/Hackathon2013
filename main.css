@@ -71,7 +71,7 @@ a:hover {
  height:190px;
  width:100%;
  position:relative; 
- background-color:#C93A36;
+ background-color:#024267;
  color:white;
  user-select:none;
  -webkit-user-select:none;
@@ -86,7 +86,7 @@ a:hover {
 }
 
 .logoHighlight {
- color: maroon;
+ color: #4ab7f5;
  display:inline-block;
 }
 
@@ -99,7 +99,7 @@ a:hover {
  display: inline-block;
  position:relative;
  margin-top:10px; 
- color:maroon;
+ color:#4ab7f5;
  font-family: Carrois Gothic;
  font-size:16px;
 }
@@ -159,7 +159,7 @@ a:hover {
  user-select:none;
  -webkit-user-select:none;
  -moz-user-select:none;
- border-bottom: 1px solid maroon;
+ border-bottom: 1px solid #024267;
 }
 
 .menuLink {
@@ -181,9 +181,9 @@ a:hover {
  width:100%;
  border-radius:25px;
  border-top: 1px solid #ddd;
- border-bottom: 1px solid maroon;
+ border-bottom: 1px solid #;
  color:white;
- background-color:#C93A36;
+ background-color:#024267;
 }
 
 .contentSubHeader{
@@ -194,7 +194,7 @@ a:hover {
 }
 
 .contentHighlight {
- background-color: #fef;
+ background-color: #D1EDFF;
  border-radius:15px;
  padding-bottom:2px;
  font-weight:bold;
@@ -222,7 +222,7 @@ a:hover {
 #signupLink {
  font-family: Montserrat;
  font-size: 30px;
- background-color:maroon;
+ background-color:#004D99;
  color:white;
  display:inline-block;
  border-radius:15px;
