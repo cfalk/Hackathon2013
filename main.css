@@ -23,6 +23,7 @@ body {
 }
 
 p, ul {
+
  text-align:left;
 }
 
@@ -44,8 +45,13 @@ a:hover {
  margin:0 auto;
  padding:0px;
  position: relative;
-
 }
+
+.superscript {
+ vertical-align:super;
+ font-size:12px;
+}
+
 
 /* # # # # # # # LOGO CONTAINER # # # # # # # # # */
 #logoContainer {
@@ -135,6 +141,40 @@ a:hover {
 }
 
 /* # # # # # # # CONTENT CONTAINER # # # # # # # # # */
+.contentHeader {
+ font-size:24px;
+ color:maroon;
+ margin-top:20px;
+ width:100%;
+ border-radius:25px;
+ border-top: 1px solid #ddd;
+ border-bottom: 1px solid maroon;
+}
+
+.contentSubHeader{
+ margin-top:5px;
+ padding: 10px;
+ border-top: 1px solid #eee;
+ font-size: 20px;
+}
+
+.contentHighlight {
+ display:inline-block;
+ background-color: #fef;
+ border-radius:10px;
+ font-weight:bold;
+}
+
+.contentOblique {
+ text-align:left;
+ display:inline-block;
+ font-style:oblique;
+}
+
+#contentFooter {
+ margin-top: 20px;
+}
+
 #contentContainer {
  width: 80%;
  font-size: 16px;
@@ -143,6 +183,8 @@ a:hover {
 }
 
 #signupLink {
+ font-family: Montserrat;
+ font-size: 30px;
  color:maroon;
 }
 
