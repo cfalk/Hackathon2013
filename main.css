@@ -48,6 +48,37 @@ a:hover {
  opacity: 1;
 }
 
+table {
+ border: none;
+ border-color:none;
+ text-align:center;
+ margin:0 auto;
+ margin-bottom:20px;
+ font:inherit;
+}
+
+ul {
+ margin-bottom:10px;
+}
+
+li {
+ margin:5px;
+}
+
+/* # # # # # # # TABLE STYLE # # # # # # # # # # # */
+tr:first-child {
+ font-weight:bold;
+ font-style:none;
+ color: white;
+ background-color:#004D99;
+}
+
+td {
+ border-radius:2px;
+ padding: 2px;
+ padding-bottom:6px;
+}
+
 /* # # # # # # # GLOBAL CONTAINER # # # # # # # # # */
 #mainContainer {
  width:100%;
@@ -68,7 +99,7 @@ a:hover {
 
 /* # # # # # # # LOGO CONTAINER # # # # # # # # # */
 #logoContainer {
- height:190px;
+ height:215px;
  width:100%;
  position:relative; 
  background-color:#024267;
@@ -101,7 +132,7 @@ a:hover {
  margin-top:10px; 
  color:#4ab7f5;
  font-family: Carrois Gothic;
- font-size:16px;
+ font-size:18px;
 }
 
 
