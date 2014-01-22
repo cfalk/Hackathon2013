@@ -219,6 +219,8 @@ td {
 
 .contentSubHeader{
  margin-top:5px;
+ width:80%;
+ margin-left:10%;
  padding-top: 10px;
  border-top: 2px solid #cbb;
  font-size: 20px;
@@ -237,6 +239,12 @@ td {
  margin-top:20px;
  text-align:center;
  font-style:oblique;
+}
+
+.listLink {
+ display:block;
+ margin:0 auto;
+ margin-top:10px;
 }
 
 #contentFooter {
