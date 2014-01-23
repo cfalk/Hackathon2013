@@ -171,12 +171,19 @@ td {
  font-family:Carrois Gothic;
 }
 
-.organizer a {
+.organizerLong {
+ position:relative;
+ height:50px;
+ margin-bottom:10px;
+ font-family:Carrois Gothic;
+}
+
+.organizer a, .organizerLong a {
  font-weight: normal;
  opacity: 1;
 }
 
-.organizer img {
+.organizer img, .organizerLong img{
  position: relative;
  margin-bottom:2px;
  height:80%;
